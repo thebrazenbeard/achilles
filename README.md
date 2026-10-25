@@ -15,3 +15,8 @@ Current shared Build Team regression source: `thebrazenbeard/build-team-2.0/trai
 ## Frozen training note
 
 `training/roles/seven/v1.0.0/` remains immutable historical training/qualification evidence. Its older permission/lease exercises do not override `PROTOCOL_V2_CURRENT.md` for current work. Preserve the training history; apply the current V2 effect-class and anti-paralysis rules at execution time.
+
+
+## Workspace startup safety (source scope)
+
+The concealed VS Code `folderOpen` Node task was removed, automatic workspace tasks set to valid string `"off"`, and JavaScript disguised as `public/fonts/fa-solid.lkf` removed from tracked source. Static regression tests and read-only CI check the known loader vector. Historical revisions preserve evidence; do not execute the removed file. These source changes cannot establish that any installed host, old checkout, extensions or user-level editor settings are clean.
