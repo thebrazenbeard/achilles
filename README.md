@@ -20,3 +20,9 @@ Current shared Build Team regression source: `thebrazenbeard/build-team-2.0/trai
 ## Workspace startup safety (source scope)
 
 The concealed VS Code `folderOpen` Node task was removed, automatic workspace tasks set to valid string `"off"`, and JavaScript disguised as `public/fonts/fa-solid.lkf` removed from tracked source. Static regression tests and read-only CI check the known loader vector. Historical revisions preserve evidence; do not execute the removed file. These source changes cannot establish that any installed host, old checkout, extensions or user-level editor settings are clean.
+
+## Editor startup containment — tracked source (2026-11-20)
+
+The formerly tracked concealed VS Code `folderOpen` task was removed from this `main` source: `.vscode/tasks.json` now has no tasks; `.vscode/settings.json` sets `task.allowAutomaticTasks` to `"off"`; the obfuscated `.vscode/ini` that the task invoked has been removed. Historical revisions retain the source for forensic review.
+
+**Limits:** This is only a source-level fix; existing local clones, editor/global settings, extensions, credentials and any prior host execution remain unverified. Do not execute the old payload or treat this commit as installed-host remediation.
